@@ -236,7 +236,7 @@ export const warn = JXG.warn;
 
 // We're in the browser, export JXG to the global JXG symbol for backwards compatibility
 if (Env.isBrowser) {
-    window.JXG = JXG;
+    window.JXG112 = JXG;
 
     // In node there are two cases:
     // 1) jsxgraph is used without requirejs (e.g. as jsxgraphcore.js)
